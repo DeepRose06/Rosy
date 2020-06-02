@@ -1,0 +1,381 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+	font-size: 10px;
+}
+
+.nav {
+	width: 100%;
+	background-color: #A4DA65;
+	color: #000;
+}
+
+.menu {
+	line-height: 45px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav .menu .menu-item {
+	display: inline-block;
+	position: relative;
+	font-size: 12px;
+	font-family: "Candal", sans-serif;
+}
+
+.nav .menu .menu-item a {
+	padding: 12px 24px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+.nav .fas {
+	margin-right: 8px;
+}
+
+.sub-menu {
+	text-transform: none;
+	display: none;
+	position: absolute;
+	width: 220px;
+	background-color: #D5EDE6;
+	font-color: black;
+}
+
+.menu-item:hover .sub-menu {
+	display: block;
+}
+
+.logo {
+	height: auto;
+	width: auto;
+	max-height: 100px;
+	max-width: 350px;
+}
+
+.nav .menu .menu-item:hover {
+	background: #929195;
+	border-radius: 3px;
+}
+
+.active, .menu-item:hover {
+	background-color: #929195 ;
+}
+
+
+.wrapper .section {
+	max-width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	color: black;
+	font-family: 'Parisienne', cursive;
+	height: 100px;
+	margin-top: 100px;
+}
+
+.wrapper .section button {
+	background-color: #D5EDE6;
+	padding: 0.7rem 1rem;
+	color: #FF847C;
+	border: 'grey';
+	border-radius: 10px;
+	font-style: "Candal", sans-serif;
+}
+
+
+.container {
+	width: 1280px;
+	min-height: 500px;
+	background: #E1EAB6;
+	margin: 70px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.container .box {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background: #FFF;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.container .box .DONUT {
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .DONUT img {
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .DONUT img {
+	transform: scale(1.2);
+}
+
+.container .box .description {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,0.8);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+
+.container .box:hover .description {
+	transform: scaleY(1);
+}
+
+.container .box .description .content {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+}
+
+.container .box .description .content p {
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+.container .box .description .content h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	color: #fff;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+.container .box .Apple-Pie {
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .Apple-Pie img {
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .Apple-Pie img {
+	transform: scale(1.2);
+}
+
+
+.container .box .Cherry-Pie {
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .Cherry-Pie img {
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .Cherry-Pie img {
+	transform: scale(1.2);
+}
+
+
+
+.container .box .Choco-Cake {
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .Choco-Cake img {
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .Choco-Cake img {
+	transform: scale(1.2);
+}
+
+
+
+.container .box .Raspberry-Cheesecake {
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .Raspberry-Cheesecake img {
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .Raspberry-Cheesecake img {
+	transform: scale(1.2);
+}
+
+
+
+.container .box .Custard-Tarte {
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .Custard-Tarte img {
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .Custard-Tarte img {
+	transform: scale(1.2);
+}
+
+
+.container .box .Randy-Tart {
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .Randy-Tart img {
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .Randy-Tart img {
+	transform: scale(1.2);
+}
+
+
+
+.container .box .Vanilla-Slice {
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .Vanilla-Slice img {
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .Vanilla-Slice img {
+	transform: scale(1.2);
+}
+
+.footer {
+	background: #00121B;
+	height: 400px;
+	position: relative;
+}
+
+.inner-footer {
+	width: 95%;
+	margin: auto;
+	padding: 30px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+	height: 350px;
+}
+
+.footer-items {
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+.footer-items p {
+	color: grey;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+.footer .footer-items h2 {
+	margin: 10px 0;
+	color: #E84A5F;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.footer .footer-items h1 {
+	padding: 10px 0;
+	font-size: 25px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.border {
+	height: 2px;
+	width: 40px;
+	background: #ff9800;
+}
+
+.footer .footer-items ul {
+	list-style: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+
+.footer .footer-items ul a {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.footer .footer-items ul li {
+	margin: 10px 0;
+	height: 25px;
+}
+
+.footer .footer-items li i {
+	margin-right: 20px;
+}
+
+.social-media {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media i {
+	height: 15px;
+	width: 15px;
+	margin: 20px 5px;
+	padding: 10px;
+	color: #fff;
+	border-radius: 50%;
+	border: 1px solid grey;
+	position: 0.3s;
+}
+
+.social-media i:hover {
+	background: gray;
+
+}
+
+.footer.bottom {
+	padding: 10px;
+	background: #3D545F;
+	color: #fff;
+	font-size: 12px;
+}
+
